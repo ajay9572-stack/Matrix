@@ -1,4 +1,5 @@
 public class M1 {
+    //initialization of 2D array
    public static void main(String[] arg){
     int [][] arr = new int[3][4];
     for(int i = 0; i< arr.length; i++){
