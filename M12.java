@@ -39,10 +39,11 @@ public class M12 {
                     else {
                         endcol = midCol - 1;
                     }
-                return false;
                 }
+                return false;
+                
             }
-            else if(target >= arr[mid][arr.length-1] ){         // if target is not in the row and target are 
+            else if(target > arr[mid][arr[0].length-1] ){         // if target is not in the row and target are 
                 stRow = mid+1;                                  //greater than that row then go to next row
             }
             else{                                                // if less than then go to previous row
